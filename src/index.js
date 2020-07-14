@@ -6,3 +6,5 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')
 );
+
+app.listen(process.env.PORT || 3000);
